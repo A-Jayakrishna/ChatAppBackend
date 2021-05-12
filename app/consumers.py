@@ -59,8 +59,8 @@ class ChatConsumer(AsyncWebsocketConsumer):
              obj3=User.objects.get(id=int(sender))
              if(obj2.email=="a.jaiki000@gmail.com"):
                  try:
-                     gmailaddress = "trailacc1140@gmail.com"
-                     gmailpassword = "dkxnkgdkmrdpxbez"
+                     # gmailaddress = "your email "
+                     # gmailpassword = "your pass"
                      mailto = obj2.email
                      subject="Notification from Chatapp"
                      body="you have got message from "+obj3.name
